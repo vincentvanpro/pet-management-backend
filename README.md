@@ -23,13 +23,6 @@ https://github.com/vincentvanpro/pet-management-backend.git
 
 1. Run `./gradlew bootRun` in the root
 
-OR
-
-1. Download pet-management-backend.jar from repository
-
-2. Run already built .jar file with `java -jar pet-management-backend.jar` 
-(better to do it in cmd to be able conveniently to stop/re-run the project)
-
 * use the *REST Client* (like **PostMan**) to hit the endpoints or run with the 
 [pet-management-frontend](https://github.com/vincentvanpro/pet-management-frontend.git)
 
