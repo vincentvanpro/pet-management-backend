@@ -1,0 +1,41 @@
+databaseChangeLog:
+  - changeSet:
+      id: create-user-records
+      author: Artyom
+      changes:
+        - insert:
+            tableName: USER
+            columns:
+              - column:
+                  name: id
+                  value: "1"
+              - column:
+                  name: username
+                  value: "lisa"
+              - column:
+                  name: password
+                  value: "sa"
+        - insert:
+            tableName: USER
+            columns:
+              - column:
+                  name: id
+                  value: "2"
+              - column:
+                  name: username
+                  value: "roberto"
+              - column:
+                  name: password
+                  value: "sa"
+        - insert:
+            tableName: USER
+            columns:
+              - column:
+                  name: id
+                  value: "3"
+              - column:
+                  name: username
+                  value: "chad"
+              - column:
+                  name: password
+                  value: "sa"
